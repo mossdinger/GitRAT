@@ -4,7 +4,7 @@ GitRAT is a fileless Remote Access Tool using GitHub repository for running comm
 ### Disclaimer
 * GitRAT is strictly for Educational purposes only.
 * Should this project ever be abused, the following behaviors may be used for detection
-  * Multiple Connections to 2 Github Repositories from a process connecting 
+  * Multiple Connections to 2 Github Repositories from a single process
   * Multiple Cmd/shell instances launched from a process connecting to 2 Github Repositories
 * Please create an issue on this repository for any questions or concerns
 
