@@ -1,11 +1,11 @@
 # GitRAT
-GitRAT is a fileless Remote Access Tool using GitHub repository for running commands and storing outputs. The inspiration behind this project stems from the prevalent practice within many organizations to permit connections to any GitHub repository from any processes. This project only serves as a Proof-of-Concept that GitHub can be abusedl; it is by no means a refined project.
+GitRAT is a fileless Remote Access Tool using GitHub repository for running commands and storing outputs. The inspiration behind this project stems from the prevalent practice within many organizations to permit connections to any GitHub repository from any process. This project only serves as a Proof-of-Concept that GitHub can be abused; it is by no means a refined project.
 
 ### Disclaimer
 * GitRAT is strictly for Educational purposes only.
-* Should this project ever be misused, the following behaviors may be used for detection
+* Should this project ever be abused, the following behaviors may be used for detection
   * Multiple Connections to 2 Github Repositories from a process connecting 
-  * Multiple Cmd/shell launched from a process connecting to 2 Github Repositories
+  * Multiple Cmd/shell instances launched from a process connecting to 2 Github Repositories
 * Please create an issue on this repository for any questions or concerns
 
 ## Usage
