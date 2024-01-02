@@ -1,4 +1,4 @@
-package gitRat
+package main
 
 import (
 	"bytes"
